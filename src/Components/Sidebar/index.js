@@ -1,9 +1,9 @@
 import React,{useState} from "react";
 import teroShare from "../../assets/images/teroshare.png";
-import { HomeIcon,TrashIcon } from "@heroicons/react/solid";
+import { HomeIcon,LinkIcon,TrashIcon } from "@heroicons/react/solid";
 import { IdentificationIcon } from "@heroicons/react/outline";
 import { CogIcon } from "@heroicons/react/outline";
-import { Discord,Github } from "react-bootstrap-icons";
+import { Discord,Github, ListCheck } from "react-bootstrap-icons";
 import ResetModal from "./ResetModal"
 import { Link } from "react-router-dom";
 
@@ -36,16 +36,16 @@ export default function Sidebar({ selectedTab }) {
             <span className="mx-4 text-sm">Auto Apply</span>
           </Link>
         </li>
-        {/* <li>
+        <li>
           <Link
             to="/status"
             className="flex items-center px-4 py-2 text-white  hover:bg-ms-hover hover:border-l-4 border-red-500"
           >
-            <ClipboardListIcon className="h-5 w-5 " />
+            <CogIcon className="h-5 w-5 " />
 
             <span className="mx-4 text-sm">Status</span>
           </Link>
-        </li> */}
+        </li>
         
         <li>
           <Link
@@ -58,28 +58,8 @@ export default function Sidebar({ selectedTab }) {
             <span className="mx-4 text-sm">Add Account</span>
           </Link>
         </li>
-        <li>
-          <a
-            href="https://discord.gg/PrxrbC9qTW"
-            className="flex items-center px-4 py-2 text-white  hover:bg-ms-hover hover:border-l-4 border-red-500"
-          >
-              
-              <Discord  className="h-5 w-5 " />
-
-            <span className="mx-4 text-sm">Join Discord</span>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/dineshtiwari69/HamroShare"
-            className="flex items-center px-4 py-2 text-white  hover:bg-ms-hover hover:border-l-4 border-red-500"
-          >
-              
-              <Github  className="h-5 w-5 " />
-
-            <span className="mx-4 text-sm">Source</span>
-          </a>
-        </li>
+       
+      
         <li>
           <div
             
