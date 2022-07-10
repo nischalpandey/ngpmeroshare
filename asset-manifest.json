@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9ac37e96.css",
+    "main.js": "/static/js/main.a65cf5db.js",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
+    "static/media/teroshare.png": "/static/media/teroshare.3424bed7f4134ea0a8b4.png",
+    "index.html": "/index.html",
+    "main.9ac37e96.css.map": "/static/css/main.9ac37e96.css.map",
+    "main.a65cf5db.js.map": "/static/js/main.a65cf5db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ac37e96.css",
+    "static/js/main.a65cf5db.js"
+  ]
+}
