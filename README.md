@@ -1,5 +1,5 @@
 
-# ⚙️ HamroShare : Batch IPO Applier
+# ⚙️ : Batch IPO Applier
 
 HamroShare is a minimal web-application that lets you apply for IPOs from multiple meroshare accounts at once.
 
